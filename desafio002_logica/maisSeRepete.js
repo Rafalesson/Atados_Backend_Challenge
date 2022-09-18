@@ -20,3 +20,5 @@ function charQueMaisRepete(arr) {
 }
 
 log(charQueMaisRepete(entrada));
+
+// Para resolução desse desafio, foi utilizado o método de for aninhado, onde o primeiro for percorre o array e o segundo for percorre o array novamente para comparar o elemento do primeiro for com os demais elementos do array. Caso o elemento do primeiro for seja igual a algum elemento do segundo for, a variável qtd é incrementada. Caso a variável qtd seja maior que a variável qtdRepete, a variável qtdRepete recebe o valor de qtd e a variável charMaisRepete recebe o valor do elemento do primeiro for.
